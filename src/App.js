@@ -1,25 +1,39 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import 'materialize-css';
+import Nav from './components/Nav';
+import Projects from './components/Projects';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div>
+        <Nav />
+      </div>
+      <div className='container'>
+        <div className='col s12'>
+          <Projects
+            contents={
+              <div class='modal-content'>
+                <h4>Modal </h4>
+                <p>A bunch of text?</p>
+              </div>
+            }
+          />
+        </div>
+        <div className='col s12'>
+          <Projects
+            modalContents={
+              <div class='modal-content'>
+                <h4>Modal Header</h4>
+                <p>this should be a different text</p>
+              </div>
+            }
+          />
+        </div>
+        <div className='col s12'>{/* <About /> */}</div>
+      </div>
+    </>
   );
 }
 
