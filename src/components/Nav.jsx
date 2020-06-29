@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
+import './CSS/nav.css';
 
 export class Nav extends Component {
   render() {
     return (
       <div>
         <nav>
-          <div class='nav-wrapper'>
-            <a href='#' class='brand-logo'>
-              Logo
+          <div className='nav-wrapper'>
+            <a href='#' className='brand-logo'>
+              MH
             </a>
-            <ul id='nav-mobile' class='right hide-on-med-and-down'>
+            <ul id='nav-mobile' className='right hide-on-med-and-down'>
               <li>
                 <a href='collapsible.html'>JavaScript</a>
               </li>

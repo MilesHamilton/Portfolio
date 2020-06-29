@@ -27,16 +27,12 @@ export class Projects extends Component {
   }
 
   render() {
-    const modalContents = (
-      <div class='modal-content'>
-        <h4>Modal Header</h4>
-        <p>A bunch of text</p>
-      </div>
-    );
-
     return (
       <>
-        <a class='waves-effect waves-light btn modal-trigger' href='#modal1'>
+        <a
+          className='waves-effect waves-light btn modal-trigger'
+          href='#modal1'
+        >
           Modal
         </a>
         <div
@@ -46,10 +42,15 @@ export class Projects extends Component {
           id='modal1'
           className='modal'
         >
-          <div className='modal-contents'>{this.props.contents}</div>
+          <div className='modal-contents' style={{ backgroundColor: 'white' }}>
+            {this.props.contents}
+          </div>
 
-          <div class='modal-footer'>
-            <a href='#!' class='modal-close waves-effect waves-green btn-flat'>
+          <div className='modal-footer'>
+            <a
+              href='#!'
+              className='modal-close waves-effect waves-green btn-flat'
+            >
               Exit
             </a>
           </div>
