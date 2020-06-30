@@ -5,12 +5,12 @@ export class About extends Component {
   render() {
     return (
       <div className='about'>
-        <h1>I am a problem solver </h1>
+        <h1>Passion is Everything</h1>
         <i class='material-icons a'>build</i>
         <p>
           I've always been <strong> tickering </strong>, tearing things
           apart,and building them anew. As a child, I enjoyed figuring out how
-          things worked. From gaming consoles like my N64 to my very first
+          things worked, from gaming consoles like my N64 to my very first
           computer. In high school I became fascinated with virtual machines,
           booting up operating systems i had litte knowledge of to learn how
           they worked.

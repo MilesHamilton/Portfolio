@@ -1,0 +1,16 @@
+.contact a {
+  color: white;
+  text-decoration: none;
+  margin: 10px 0;
+}
+
+.contact p {
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.contact {
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+}
