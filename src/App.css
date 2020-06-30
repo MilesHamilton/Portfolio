@@ -1,9 +1,42 @@
+* {
+  margin: 0;
+}
+
+.app {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
 .header {
-  background-color: #282c34;
+  background: linear-gradient(350deg, white 25%, #282c34 0%);
   box-sizing: border-box;
-  height: 125vh;
+  height: 145vh;
 }
 
 .nav {
   background-color: white;
+}
+
+.main {
+  /* background: linear-gradient(35deg, white 30%, #282c34 0%); */
+  padding-top: 0;
+  height: 100vh;
+}
+
+.footer {
+  background: linear-gradient(350deg, #282c34 81%, white 0%);
+  height: 150vh;
+}
+
+.material-icons.a {
+  border: solid black 2px;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.material-icons.b {
+  border: solid white 2px;
+  border-radius: 50%;
+  padding: 10px;
 }

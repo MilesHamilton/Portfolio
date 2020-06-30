@@ -1,14 +1,16 @@
 import React from 'react';
 import './App.css';
 import 'materialize-css';
+import { Link, animateScroll as scroll } from 'react-scroll';
 import Nav from './components/Nav';
 import Projects from './components/Projects';
 import About from './components/About';
 import Layout from './components/Layout';
+import Skills from './components/Skills';
 
 function App() {
   return (
-    <>
+    <div className='app'>
       <div className='header'>
         <div className='nav'>
           <Nav />
@@ -73,7 +75,14 @@ function App() {
           </div>
         </div>
       </div>
-    </>
+      <div className='footer'>
+        <div className='container'>
+          <div className='col s12'>
+            <Skills />
+          </div>
+        </div>
+      </div>
+    </div>
   );
 }
 

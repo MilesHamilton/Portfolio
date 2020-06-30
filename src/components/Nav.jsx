@@ -8,7 +8,7 @@ export class Nav extends Component {
         <nav>
           <div className='nav-wrapper'>
             <a href='#' className='brand-logo'>
-              MH
+              <div className='logo'>MH</div>
             </a>
             <ul id='nav-mobile' className='right hide-on-med-and-down'>
               <li>
