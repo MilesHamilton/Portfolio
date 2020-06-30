@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import M from 'materialize-css';
+import './CSS/projects.css';
 
 export class Projects extends Component {
   componentDidMount() {
@@ -30,10 +31,10 @@ export class Projects extends Component {
     return (
       <>
         <a
-          className='waves-effect waves-light btn modal-trigger'
+          className='waves-effect waves-light modal-trigger btn-flat button'
           href='#modal1'
         >
-          Modal
+          {this.props.name}
         </a>
         <div
           ref={(Modal) => {
@@ -47,10 +48,7 @@ export class Projects extends Component {
           </div>
 
           <div className='modal-footer'>
-            <a
-              href='#!'
-              className='modal-close waves-effect waves-green btn-flat'
-            >
+            <a href='#!' className='modal-close waves-effect btn-flat'>
               Exit
             </a>
           </div>

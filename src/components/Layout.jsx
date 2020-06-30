@@ -19,19 +19,20 @@ export class Layout extends Component {
     return (
       <div>
         <CSSTransition in={true} appear={true} timeout={2500} classNames='fade'>
-          <h1>this should transition right away!</h1>
+          <h1>Development Driven.</h1>
         </CSSTransition>
-
-        {this.state.showText && (
-          <CSSTransition
-            in={true}
-            appear={true}
-            timeout={1500}
-            classNames='fade'
-          >
-            <h1>this should transition sloooowly</h1>
-          </CSSTransition>
-        )}
+        <div className='sub-text'>
+          {this.state.showText && (
+            <CSSTransition
+              in={true}
+              appear={true}
+              timeout={1500}
+              classNames='fade'
+            >
+              <h1>Forward Thinking.</h1>
+            </CSSTransition>
+          )}
+        </div>
       </div>
     );
   }

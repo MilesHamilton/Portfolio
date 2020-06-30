@@ -1,8 +1,9 @@
-* {
+.header {
   background-color: #282c34;
   box-sizing: border-box;
+  height: 125vh;
 }
 
 .nav {
-  background-color: white !important;
+  background-color: white;
 }
