@@ -19,7 +19,6 @@
 }
 
 .main {
-  /* background: linear-gradient(35deg, white 30%, #282c34 0%); */
   padding-top: 0;
   height: 100vh;
 }
@@ -32,11 +31,24 @@
 .material-icons.a {
   border: solid black 2px;
   border-radius: 50%;
-  padding: 10px;
+  padding: 12px;
+  height: 65px;
+  font-size: 35px;
+  color: white;
+  background-color: #282c34;
+  margin-right: 25px;
 }
 
 .material-icons.b {
   border: solid white 2px;
+
   border-radius: 50%;
-  padding: 10px;
+  padding: 12px;
+  height: 65px;
+  font-size: 35px;
+  color: white;
+}
+
+.icon {
+  margin-left: 1rem;
 }

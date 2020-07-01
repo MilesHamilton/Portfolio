@@ -1,4 +1,33 @@
 .skills {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-end;
   margin-top: 20rem;
   color: white;
+  width: 50vw;
+}
+
+.skills-contents {
+  display: flex;
+  flex-direction: row;
+  margin: 3rem 0;
+}
+
+.skills-contents p {
+  position: relative;
+  left: 6rem;
+  top: 1rem;
+  font-size: 18px;
+  text-align: right;
+}
+
+.skills-contents h5 {
+  width: 14rem;
+  position: relative;
+  bottom: 3rem;
+}
+
+.skills-contents.front h5 {
+  position: relative;
+  left: 1rem;
 }

@@ -71,7 +71,7 @@ function App() {
       </div>
       <div className='main'>
         <div className='container'>
-          <div className='col s12'>
+          <div className='col s12 '>
             <About />
           </div>
         </div>

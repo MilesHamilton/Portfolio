@@ -5,7 +5,7 @@ export class Nav extends Component {
   render() {
     return (
       <div>
-        <nav>
+        <nav className='navbar-transition cool-navbar z-depth-0'>
           <div className='nav-wrapper'>
             <a href='#' className='brand-logo'>
               <div className='logo'>MH</div>

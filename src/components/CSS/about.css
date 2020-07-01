@@ -1,3 +1,21 @@
 .about > h1 {
   color: black;
 }
+
+.about {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 50rem;
+}
+
+.about-contents {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem 0;
+}
+
+strong {
+  font-size: 20px;
+}

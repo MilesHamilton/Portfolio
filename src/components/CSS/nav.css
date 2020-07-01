@@ -1,5 +1,10 @@
 .nav-wrapper {
   background-color: #282c34;
+  margin-top: 8vh;
+}
+
+nav {
+  height: 50vh;
 }
 
 .logo {
@@ -8,8 +13,9 @@
   border: white 2px solid;
   padding: 0px 0;
   border-radius: 50%;
+  margin: 0 0 0 8vh;
 }
 
-/* .ul {
-  color: black;
-} */
+.nav-wrapper ul {
+  margin-right: 8vh;
+}
