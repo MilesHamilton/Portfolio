@@ -1,33 +1,35 @@
 .skills {
-  display: flex;
-  flex-flow: column;
-  align-items: flex-end;
-  margin-top: 20rem;
+  margin-top: 30rem;
   color: white;
-  width: 50vw;
 }
 
 .skills-contents {
   display: flex;
   flex-direction: row;
-  margin: 3rem 0;
+  margin: 7rem 0;
 }
 
 .skills-contents p {
   position: relative;
-  left: 6rem;
-  top: 1rem;
+  left: 14rem;
+  top: 2rem;
   font-size: 18px;
   text-align: right;
+  width: 30rem;
 }
 
 .skills-contents h5 {
-  width: 14rem;
+  width: 15rem;
   position: relative;
   bottom: 3rem;
+  left: 7rem;
 }
 
 .skills-contents.front h5 {
   position: relative;
-  left: 1rem;
+  left: 9rem;
+}
+
+.b {
+  margin-left: 2rem;
 }

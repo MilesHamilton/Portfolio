@@ -17,7 +17,7 @@ export class Layout extends Component {
 
   render() {
     return (
-      <div>
+      <div className='layout'>
         <CSSTransition in={true} appear={true} timeout={2500} classNames='fade'>
           <h1>Development Driven.</h1>
         </CSSTransition>

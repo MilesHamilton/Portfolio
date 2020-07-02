@@ -4,15 +4,16 @@
 
 .about {
   display: flex;
-  align-items: center;
   flex-direction: column;
-  justify-content: center;
-  width: 50rem;
+  width: 100vh;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .about-contents {
   display: flex;
   flex-direction: row;
+  align-items: center;
   margin: 1rem 0;
 }
 

@@ -1,13 +1,28 @@
 import React from 'react';
 import './App.css';
 import 'materialize-css';
-import { Link, animateScroll as scroll } from 'react-scroll';
+import * as Scroll from 'react-scroll';
+import {
+  Link,
+  Element,
+  Events,
+  animateScroll as scroll,
+  scrollSpy,
+  scroller,
+} from 'react-scroll';
 import Nav from './components/Nav';
 import Projects from './components/Projects';
 import About from './components/About';
 import Layout from './components/Layout';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
+
+var dcroll = require('react-scroll');
+var E3vents = dcroll.Events;
+
+E3vents.scrollEvent.register('begin', function (to, element) {
+  console.log('begin', to, element);
+});
 
 function App() {
   return (
@@ -69,8 +84,8 @@ function App() {
           </div>
         </div>
       </div>
-      <div className='main'>
-        <div className='container'>
+      <div className='container'>
+        <div className='main'>
           <div className='col s12 '>
             <About />
           </div>

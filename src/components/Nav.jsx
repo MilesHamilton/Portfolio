@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import './CSS/nav.css';
+import { Link } from 'react-scroll';
 
 export class Nav extends Component {
+  state = {};
   render() {
     return (
       <div>
@@ -11,12 +13,26 @@ export class Nav extends Component {
               <div className='logo'>MH</div>
             </a>
             <ul id='nav-mobile' className='right hide-on-med-and-down'>
-              <li>
-                <a href='collapsible.html'>JavaScript</a>
-              </li>
-              <li>
-                <a href='sass.html'>About Me</a>
-              </li>
+              <Link
+                activeClass='active'
+                to='about'
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={500}
+              >
+                About
+              </Link>
+              <Link
+                activeClass='active'
+                to='skills'
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={500}
+              >
+                Skills
+              </Link>
             </ul>
           </div>
         </nav>

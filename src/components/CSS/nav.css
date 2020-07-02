@@ -17,5 +17,6 @@ nav {
 }
 
 .nav-wrapper ul {
-  margin-right: 8vh;
+  margin-right: 19vh;
+  display: flex;
 }
