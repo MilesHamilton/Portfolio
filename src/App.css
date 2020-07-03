@@ -1,10 +1,11 @@
 * {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
+  background-repeat: no-repeat;
 }
 
 .app {
-  padding: 0;
   display: flex;
   flex-direction: column;
 }
@@ -20,13 +21,14 @@
 }
 
 .main {
-  padding-top: 0;
-  height: 100vh;
+  /* padding-top: 0; */
+  /* height: 100vh; */
+  background: local white;
 }
 
 .footer {
   background: linear-gradient(350deg, #282c34 81%, white 0%);
-  height: 150vh;
+  height: 175vh;
 }
 
 .material-icons.a {

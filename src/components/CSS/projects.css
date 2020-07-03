@@ -1,7 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Neuton:wght@300&display=swap');
+
 .button {
   color: white !important;
 }
 
-.button:hover {
+/* .button:hover {
   background-color: rgb(104, 104, 104);
+} */
+
+.modals:hover > .country-happiness-frontend {
+  opacity: 0.5;
+}
+
+.modals:hover > .country-happiness-frontend:hover {
+  opacity: 1;
+}
+
+.modals:hover > .country-happiness-backend {
+  opacity: 0.5;
+}
+
+.modals:hover > .country-happiness-backend:hover {
+  opacity: 1;
+}
+
+.modals:hover > .movie-tv-finder {
+  opacity: 0.5;
+}
+
+.modals:hover > .movie-tv-finder:hover {
+  opacity: 1;
+}
+
+.modals:hover > .cotripper {
+  opacity: 0.5;
+}
+
+.modals:hover > .cotripper:hover {
+  opacity: 1;
+}
+
+.modals {
+  width: 16rem;
+  margin-top: 6rem;
+  font-weight: 400;
+  font-family: 'Neuton', serif;
+}
+
+.modals > div > a {
+  font-size: 40px;
+  margin: 1.5rem 9rem 1.5rem 0;
+  line-height: 70px;
+  white-space: nowrap;
 }

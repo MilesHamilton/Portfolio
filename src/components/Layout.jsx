@@ -13,7 +13,6 @@ export class Layout extends Component {
       this.setState({ showText: true });
     }, 2000);
   };
-  appear = () => {};
 
   render() {
     return (

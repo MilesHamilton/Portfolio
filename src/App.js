@@ -1,15 +1,6 @@
 import React from 'react';
 import './App.css';
 import 'materialize-css';
-import * as Scroll from 'react-scroll';
-import {
-  Link,
-  Element,
-  Events,
-  animateScroll as scroll,
-  scrollSpy,
-  scroller,
-} from 'react-scroll';
 import Nav from './components/Nav';
 import Projects from './components/Projects';
 import About from './components/About';
@@ -36,56 +27,13 @@ function App() {
             <Layout />
           </div>
           <div className='col s12'>
-            <Projects
-              name={'Country Happiness Frontend'}
-              contents={
-                <div className='modal-content'>
-                  <h4>Modal Header</h4>
-                  <p>A bunch of text lmao woo</p>
-                </div>
-              }
-            />
-            <Projects
-              name={'Country Happiness Frontend'}
-              contents={
-                <div className='modal-content'>
-                  <h4>Modal Header</h4>
-                  <p>A bunch of text lmao woo</p>
-                </div>
-              }
-            />
-            <Projects
-              name={'Country Happiness Frontend'}
-              contents={
-                <div className='modal-content'>
-                  <h4>Modal Header</h4>
-                  <p>A bunch of text lmao woo</p>
-                </div>
-              }
-            />
-            <Projects
-              name={'Country Happiness Frontend'}
-              contents={
-                <div className='modal-content'>
-                  <h4>Modal Header</h4>
-                  <p>A bunch of text lmao woo</p>
-                </div>
-              }
-            />
-            <Projects
-              name={'Country Happiness Frontend'}
-              contents={
-                <div className='modal-content'>
-                  <h4>Modal Header</h4>
-                  <p>A bunch of text lmao woo</p>
-                </div>
-              }
-            />
+            <Projects />
           </div>
         </div>
       </div>
-      <div className='container'>
-        <div className='main'>
+
+      <div className='main'>
+        <div className='container'>
           <div className='col s12 '>
             <About />
           </div>
