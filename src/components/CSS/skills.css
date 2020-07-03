@@ -12,17 +12,16 @@
 .skills-contents p {
   position: relative;
   left: 14rem;
-  top: 2rem;
+
   font-size: 22px;
   text-align: right;
   width: 30rem;
 }
 
 .skills-contents h5 {
-  width: 15rem;
+  width: 14rem;
   position: relative;
-  bottom: 3rem;
-  left: 7rem;
+  bottom: 4rem;
 }
 
 .skills-contents.front h5 {
@@ -40,20 +39,5 @@
     flex-direction: column;
     align-items: flex-start;
     margin: 7rem 0;
-  }
-
-  .skills-contents h5 {
-    width: 15rem;
-    position: relative;
-    bottom: 9rem;
-    left: 7rem;
-  }
-  .skills-contents p {
-    position: relative;
-    /* left: 14rem; */
-    top: 2rem;
-    font-size: 18px;
-    text-align: right;
-    width: 30rem;
   }
 }

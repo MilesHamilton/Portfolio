@@ -24,3 +24,14 @@ h1 {
   height: 10rem;
   border: 1px #282c34 solid;
 }
+
+.sub-text > div > p {
+  font-size: 18px;
+  color: white;
+  width: 40rem;
+  margin-top: 5rem;
+}
+
+.sub-text > div > p > strong {
+  font-family: 'Volkhov', serif;
+}

@@ -49,7 +49,7 @@ export class Projects extends Component {
   render() {
     return (
       <div className='modals'>
-        <div className='country-happiness-frontend'>
+        <div className='country-happiness-frontend '>
           {this.state.showCountryFront && (
             <CSSTransition
               in={true}
@@ -58,7 +58,7 @@ export class Projects extends Component {
               classNames='fade'
             >
               <a className=' modal-trigger btn-flat button' href='#modal1'>
-                Country Happiness frontend
+                Country Happiness Frontend
               </a>
             </CSSTransition>
           )}

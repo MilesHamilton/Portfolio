@@ -11,7 +11,7 @@ export class Layout extends Component {
   componentDidMount = () => {
     setTimeout(() => {
       this.setState({ showText: true });
-    }, 2000);
+    }, 1800);
   };
 
   render() {
@@ -28,7 +28,14 @@ export class Layout extends Component {
               timeout={1500}
               classNames='fade'
             >
-              <h1>Forward Thinking.</h1>
+              <div>
+                <h1>Forward Thinking.</h1>
+                <p>
+                  <strong>Hello</strong> my name is Miles Hamilton, I am a
+                  Fullstack Software Developer based in Washington DC. With a
+                  head for creative solutions and optimal functionality.
+                </p>
+              </div>
             </CSSTransition>
           )}
         </div>
