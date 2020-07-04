@@ -17,19 +17,19 @@ export class Projects extends Component {
   componentDidMount = () => {
     setTimeout(() => {
       this.setState({ showCountryFront: true });
-    }, 1800);
-
-    setTimeout(() => {
-      this.setState({ showCountryAPI: true });
     }, 2000);
 
     setTimeout(() => {
+      this.setState({ showCountryAPI: true });
+    }, 2300);
+
+    setTimeout(() => {
       this.setState({ showMovieTvFinder: true });
-    }, 2200);
+    }, 2600);
 
     setTimeout(() => {
       this.setState({ showCotripper: true });
-    }, 2400);
+    }, 2900);
 
     const options = {
       inDuration: 250,
@@ -58,7 +58,7 @@ export class Projects extends Component {
               classNames='fade'
             >
               <a className=' modal-trigger btn-flat button' href='#modal1'>
-                Country Happiness Frontend
+                Country Happiness Index
               </a>
             </CSSTransition>
           )}
@@ -74,21 +74,36 @@ export class Projects extends Component {
               className='modal-contents'
               style={{ backgroundColor: 'white' }}
             >
-              <div class='modal-content'>
-                <h4>Modal Header</h4>
-                <p>Some texe...</p>
+              <div className='modal-content'>
+                <h4>Country Happiness Index</h4>
+                <div className='modal_countryhappiness'>
+                  <a
+                    href='https://countryhappinessindex.vercel.app/'
+                    target='_blank'
+                  >
+                    <img
+                      style={{ width: '700px' }}
+                      src={require('./CSS/CountryHappiness.gif')}
+                    ></img>
+                  </a>
+                </div>
+                <p>
+                  MERN stack application that shows country happiness
+                  information from a backend MongoDB database built with CSV
+                  data from the World Happiness Report.
+                </p>
               </div>
             </div>
 
-            <div className='modal-footer'>
+            {/* <div className='modal-footer'>
               <a href='#!' className='modal-close waves-effect btn-flat'>
                 Exit
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
 
-        <div className='country-happiness-backend'>
+        <div className='yakyik'>
           {this.state.showCountryAPI && (
             <CSSTransition
               in={true}
@@ -97,7 +112,7 @@ export class Projects extends Component {
               classNames='fade'
             >
               <a className=' modal-trigger btn-flat button' href='#modal2'>
-                Country Happiness API
+                yakyik
               </a>
             </CSSTransition>
           )}
@@ -113,17 +128,28 @@ export class Projects extends Component {
               className='modal-contents'
               style={{ backgroundColor: 'white' }}
             >
-              <div class='modal-content'>
-                <h4>Modal Header</h4>
-                <p>please be diff</p>
+              <h4>Yak Yik</h4>
+              <div className='modal_yakyik'>
+                <a href='http://yak-yik.surge.sh/' target='_blank'>
+                  <img
+                    style={{ width: '750px' }}
+                    src={require('./CSS/YakYik.gif')}
+                  ></img>
+                </a>
               </div>
+              <p>
+                Developed a mock application of the anonymous social media
+                platform Yikyak. Utilizing the MERN stack and built with full
+                CRUD capabilities this app was build in 4.5 days with a team of
+                4 people
+              </p>
             </div>
-
+            {/* 
             <div className='modal-footer'>
               <a href='#!' className='modal-close waves-effect btn-flat'>
                 Exit
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
 
@@ -152,17 +178,26 @@ export class Projects extends Component {
               className='modal-contents'
               style={{ backgroundColor: 'white' }}
             >
-              <div class='modal-content'>
-                <h4>Modal Header</h4>
-                <p>Some texe...</p>
+              <div className='modal_movietv'>
+                <h4>Movie and TV Finder</h4>
+                <a href='https://movieandtvfinder.vercel.app/' target='_blank'>
+                  <img
+                    style={{ width: '800px' }}
+                    src={require('./CSS/MovieTv.gif')}
+                  ></img>
+                </a>
               </div>
+              <p>
+                A static website built in react that fetches a random movie or
+                tv show from The Movie DataBase API
+              </p>
             </div>
-
+            {/* 
             <div className='modal-footer'>
               <a href='#!' className='modal-close waves-effect btn-flat'>
                 Exit
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
 
@@ -191,17 +226,26 @@ export class Projects extends Component {
               className='modal-contents'
               style={{ backgroundColor: 'white' }}
             >
-              <div class='modal-content'>
-                <h4>Modal Header</h4>
-                <p>Some tex</p>
+              <h4>Cotripper</h4>
+              <div class='modal_cotripper'>
+                <a href='https://cotripper.netlify.app/' target='_blank'>
+                  <img
+                    style={{ width: '800px' }}
+                    src={require('./CSS/Cotripper.gif')}
+                  ></img>
+                </a>
+                <p>
+                  a collaborative open sourced, full stack, client project for
+                  traveling single mothers built using react and django
+                </p>
               </div>
             </div>
 
-            <div className='modal-footer'>
+            {/* <div className='modal-footer'>
               <a href='#!' className='modal-close waves-effect btn-flat'>
                 Exit
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
