@@ -24,10 +24,9 @@ export class Skills extends Component {
 
         <div
           className='skills-contents front'
-          className='skills-contents front'
           data-aos='fade-left'
           data-aos-duration='300'
-          data-aos-delay='300'
+          data-aos-delay='200'
           data-aos-easing='ease-in-out'
           data-aos-duration='1000'
           data-aos-once='true'
@@ -41,11 +40,10 @@ export class Skills extends Component {
         </div>
 
         <div
-          className='skills-contents'
           className='skills-contents front'
           data-aos='fade-left'
           data-aos-duration='300'
-          data-aos-delay='300'
+          data-aos-delay='200'
           data-aos-easing='ease-in-out'
           data-aos-duration='1000'
           data-aos-once='true'
