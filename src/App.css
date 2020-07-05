@@ -8,12 +8,14 @@
 .app {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .header {
   background: linear-gradient(350deg, white 25%, #282c34 0%);
   box-sizing: border-box;
   height: 145vh;
+  width: 100%;
 }
 
 .nav {
@@ -28,7 +30,7 @@
 
 .footer {
   background: linear-gradient(350deg, #282c34 81%, white 0%);
-  height: 190vh;
+  height: 100%;
 }
 
 .material-icons.a {
