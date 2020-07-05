@@ -70,7 +70,7 @@ export class About extends Component {
             data-aos-once='true'
           >
             <i className='material-icons small a'>landscape</i>
-            <p className='flow-text'>
+            <p className='flowtext'>
               Motivated by my exposure to surveying technologies and operations
               I pursued and graduated with a Bachelor's degree in
               <strong> Geology </strong>and found interest in research based
