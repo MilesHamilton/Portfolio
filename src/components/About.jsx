@@ -34,11 +34,11 @@ export class About extends Component {
           >
             <i class='material-icons small a'>build</i>
             <p className='flow-text'>
-              I've always been <strong> tickering</strong>, tearing things
+              I've always been <strong> tinkering</strong>, tearing things
               apart, and building them anew. As a child, I enjoyed figuring out
               how things worked, from gaming consoles like my N64 to my very
               first computer. In high school I became fascinated with virtual
-              machines, booting up operating systems I had litte knowledge of
+              machines, booting up operating systems I had little knowledge of
               just to learn how they worked.
             </p>
           </div>
@@ -56,8 +56,8 @@ export class About extends Component {
               After highschool I enlisted in the Ohio National Guard. While
               serving I ended up learning alot of different niche
               <strong> skills and expertise</strong> along the way. My
-              deployment to kuwait brought on a lot of challenges, but the
-              oppurtity to grow came with it.
+              deployment to Kuwait brought on a lot of challenges, but the
+              opportunity to grow came with it.
             </p>
           </div>
           <div
@@ -109,7 +109,7 @@ export class About extends Component {
               Now returning to my inquisitive roots in the form of software
               engineering! My dream is to untangle and fix the problems of the
               future through my own refined and minimalistic code. what
-              <strong> solutions</strong> can i solve for you?
+              <strong> solutions</strong> can I solve for you?
             </p>
           </div>
         </div>

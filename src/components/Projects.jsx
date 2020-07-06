@@ -188,7 +188,7 @@ export class Projects extends Component {
                 </a>
               </div>
               <p>
-                A static website built in react that fetches a random movie or
+                A static website built in react that fetches A random movie or
                 tv show from The Movie DataBase API
               </p>
             </div>
