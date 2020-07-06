@@ -32,8 +32,7 @@ export class Layout extends Component {
                 <h1>Forward Thinking.</h1>
                 <p>
                   <strong>Hello</strong> my name is Miles Hamilton, I am a
-                  Fullstack Software Developer based in Washington DC. With a
-                  head for creative solutions and optimal functionality.
+                  Fullstack Software Developer based in Washington DC.
                 </p>
               </div>
             </CSSTransition>

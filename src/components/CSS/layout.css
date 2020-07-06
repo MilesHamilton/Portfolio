@@ -35,3 +35,10 @@ h1 {
 .sub-text > div > p > strong {
   font-family: 'Volkhov', serif;
 }
+
+.sub-text > div > h4 {
+  font-family: 'Volkhov', serif;
+  color: white;
+  margin: 2rem 0;
+  font-weight: 600;
+}

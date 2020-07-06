@@ -34,12 +34,10 @@ export class About extends Component {
           >
             <i class='material-icons small a'>build</i>
             <p className='flow-text'>
-              I've always been <strong> tinkering</strong>, tearing things
-              apart, and building them anew. As a child, I enjoyed figuring out
-              how things worked, from gaming consoles like my N64 to my very
-              first computer. In high school I became fascinated with virtual
-              machines, booting up operating systems I had little knowledge of
-              just to learn how they worked.
+              A lifelong <span>tinkerer</span>, I have always been tearing
+              things apart and building them anew ever since I was a child. In
+              high school I became fascinated with virtual machines, booting up
+              operating systems just to learn how they worked.
             </p>
           </div>
           <div
@@ -53,11 +51,10 @@ export class About extends Component {
           >
             <i class='material-icons small a'>star</i>
             <p className='flow-text'>
-              After highschool I enlisted in the Ohio National Guard. While
-              serving I ended up learning alot of different niche
-              <strong> skills and expertise</strong> along the way. My
-              deployment to Kuwait brought on a lot of challenges, but the
-              opportunity to grow came with it.
+              While serving In the national guard i have learned alot of niche
+              <span> skills and expertise</span> along the way. My deployment to
+              Kuwait brought on a lot of challenges, but the opportunity to grow
+              came with it.
             </p>
           </div>
           <div
@@ -73,8 +70,7 @@ export class About extends Component {
             <p className='flow-text'>
               Motivated by my exposure to surveying technologies and operations
               I pursued and graduated with a Bachelor's degree in
-              <strong> Geology </strong>and found interest in research based
-              work
+              <span> Geology </span>and found interest in research based work
             </p>
           </div>
           <div
@@ -88,7 +84,7 @@ export class About extends Component {
           >
             <i className='material-icons small a'>polymer</i>
             <p className='flow-text'>
-              Working as a<strong> research scientist </strong> for the past two
+              Working as a<span> research scientist </span> for the past two
               years, learning all that I could, I was suddenly faced with my own
               from of an existential crisis: in-adversity. I yearned for the
               child like passions and creativity that had brought me so much joy
@@ -109,7 +105,7 @@ export class About extends Component {
               Now returning to my inquisitive roots in the form of software
               engineering! My dream is to untangle and fix the problems of the
               future through my own refined and minimalistic code. what
-              <strong> solutions</strong> can I solve for you?
+              <span> solutions</span> can I solve for you?
             </p>
           </div>
         </div>

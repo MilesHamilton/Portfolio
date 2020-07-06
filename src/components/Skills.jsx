@@ -40,7 +40,7 @@ export class Skills extends Component {
         </div>
 
         <div
-          className='skills-contents front'
+          className='skills-contents misc'
           data-aos='fade-left'
           data-aos-duration='300'
           data-aos-delay='200'

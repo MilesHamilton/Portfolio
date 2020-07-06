@@ -31,6 +31,13 @@
   font-weight: 600;
 }
 
+.skills-contents.misc > h5 {
+  position: relative;
+  left: 1rem;
+  font-size: 30px;
+  font-weight: 600;
+}
+
 .b {
   margin-left: 2rem;
 }

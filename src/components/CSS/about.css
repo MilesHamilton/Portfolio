@@ -20,8 +20,9 @@
   width: 100vh;
 }
 
-strong {
-  font-size: 30px;
+span {
+  font-size: 22px;
+  font-weight: 800;
 }
 
 p.flow-text {
