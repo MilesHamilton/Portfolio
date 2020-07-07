@@ -51,7 +51,7 @@ export class About extends Component {
           >
             <i class='material-icons small a'>star</i>
             <p className='flow-text'>
-              While serving In the national guard I have learned alot of niche
+              While serving in the National Guard I have learned a lot of niche
               <span> skills and expertise</span> along the way. My deployment to
               Kuwait brought on a lot of challenges, but the opportunity to grow
               came with it.
@@ -70,7 +70,7 @@ export class About extends Component {
             <p className='flow-text'>
               Motivated by my exposure to surveying technologies and operations
               I pursued and graduated with a Bachelor's degree in
-              <span> Geology </span>and found interest in research based work
+              <span> Geology </span>and found interest in research based work.
             </p>
           </div>
           <div
@@ -105,7 +105,7 @@ export class About extends Component {
               Now returning to my inquisitive roots in the form of software
               engineering! My dream is to untangle and fix the problems of the
               future through my own refined and minimalistic code. What
-              <span> solutions</span> can I solve for you?
+              <span> solutions</span> can I build for you?
             </p>
           </div>
         </div>

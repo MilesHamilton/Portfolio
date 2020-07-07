@@ -18,10 +18,10 @@ export class Contact extends Component {
         </a>
         <a>330.671.0827</a>
         <a href='https://github.com/MilesHamilton' target='_blank'>
-          Github
+          GitHub
         </a>
         <a href='https://www.linkedin.com/in/miles-hamilton/' target='_blank'>
-          Linkedin
+          LinkedIn
         </a>
         <a href='https://www.instagram.com/hiles_mammal/' target='_blank'>
           Instagram
