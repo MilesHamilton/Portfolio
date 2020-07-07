@@ -1,6 +1,7 @@
 nav {
   background-color: #282c34 !important ;
-  margin-top: 60px;
+  height: 30px;
+  line-height: 30px;
 }
 
 .logo {

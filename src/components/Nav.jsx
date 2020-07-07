@@ -6,8 +6,8 @@ export class Nav extends Component {
   state = {};
   render() {
     return (
-      <div>
-        <nav className=' z-depth-0  '>
+      <div className='navbar-fixed nav'>
+        <nav className=' z-depth-0'>
           <a href='#' className='brand-logo'>
             <div className='logo'>MH</div>
           </a>
@@ -17,7 +17,18 @@ export class Nav extends Component {
               to='about'
               spy={true}
               smooth={true}
-              offset={0}
+              offset={-1300}
+              duration={500}
+              link='Projects'
+            >
+              Home
+            </Link>
+            <Link
+              activeClass='active'
+              to='about'
+              spy={true}
+              smooth={true}
+              offset={-50}
               duration={500}
             >
               About
@@ -31,6 +42,16 @@ export class Nav extends Component {
               duration={500}
             >
               Skills
+            </Link>
+            <Link
+              activeClass='active'
+              to='skills'
+              spy={true}
+              smooth={true}
+              offset={200}
+              duration={500}
+            >
+              Contact
             </Link>
           </ul>
         </nav>

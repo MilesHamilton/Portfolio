@@ -42,16 +42,22 @@
 
 .modals {
   width: 16rem;
-  margin-top: 5rem;
+  margin-top: 8rem;
   font-weight: 400;
   font-family: 'Neuton', serif;
 }
 
 .modals > div > a {
-  font-size: 40px;
-  margin: 1.5rem 9rem 1.5rem 0;
-  line-height: 70px;
+  font-size: 50px;
+  margin: 2rem 9rem 1.5rem 0;
+  /* line-height: 0px; */
   white-space: nowrap;
+}
+
+.modals > div > a > blockquote {
+  padding-left: 1.5 rem;
+  height: 50px;
+  border-left: 4px solid white;
 }
 
 .modals p {
@@ -62,6 +68,7 @@
 
 .modals h4 {
   text-align: center;
+  text-decoration: underline;
 }
 
 .modals .modal_countryhappiness {

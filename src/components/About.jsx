@@ -51,7 +51,7 @@ export class About extends Component {
           >
             <i class='material-icons small a'>star</i>
             <p className='flow-text'>
-              While serving In the national guard i have learned alot of niche
+              While serving In the national guard I have learned alot of niche
               <span> skills and expertise</span> along the way. My deployment to
               Kuwait brought on a lot of challenges, but the opportunity to grow
               came with it.
@@ -104,7 +104,7 @@ export class About extends Component {
             <p className='flow-text'>
               Now returning to my inquisitive roots in the form of software
               engineering! My dream is to untangle and fix the problems of the
-              future through my own refined and minimalistic code. what
+              future through my own refined and minimalistic code. What
               <span> solutions</span> can I solve for you?
             </p>
           </div>

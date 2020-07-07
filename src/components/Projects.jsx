@@ -58,7 +58,7 @@ export class Projects extends Component {
               classNames='fade'
             >
               <a className=' modal-trigger btn-flat button' href='#modal1'>
-                Country Happiness Index
+                <blockquote>Country Happiness Index</blockquote>
               </a>
             </CSSTransition>
           )}
@@ -94,12 +94,6 @@ export class Projects extends Component {
                 </p>
               </div>
             </div>
-
-            {/* <div className='modal-footer'>
-              <a href='#!' className='modal-close waves-effect btn-flat'>
-                Exit
-              </a>
-            </div> */}
           </div>
         </div>
 
@@ -112,7 +106,7 @@ export class Projects extends Component {
               classNames='fade'
             >
               <a className=' modal-trigger btn-flat button' href='#modal2'>
-                yakyik
+                <blockquote>yakyik</blockquote>
               </a>
             </CSSTransition>
           )}
@@ -162,7 +156,7 @@ export class Projects extends Component {
               classNames='fade'
             >
               <a className=' modal-trigger btn-flat button' href='#modal3'>
-                movie tv finder
+                <blockquote>movie tv finder</blockquote>
               </a>
             </CSSTransition>
           )}
@@ -210,7 +204,7 @@ export class Projects extends Component {
               classNames='fade'
             >
               <a className=' modal-trigger btn-flat button' href='#modal4'>
-                cotripper
+                <blockquote>cotripper</blockquote>
               </a>
             </CSSTransition>
           )}
