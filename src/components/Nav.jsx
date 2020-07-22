@@ -11,7 +11,15 @@ export class Nav extends Component {
           <a href='#' className='brand-logo'>
             <div className='logo'>MH</div>
           </a>
+
           <ul id='nav-mobile' className='right hide-on-med-and-down'>
+            <a
+              href='https://drive.google.com/file/d/1_55vVFghkdIpwEzyubH-hhbZEmwRzJpB/view?usp=sharing'
+              target='_blank'
+            >
+              Resume
+            </a>
+
             <Link
               activeClass='active'
               to='about'
@@ -28,7 +36,7 @@ export class Nav extends Component {
               to='about'
               spy={true}
               smooth={true}
-              offset={-50}
+              offset={-100}
               duration={500}
             >
               About
@@ -38,7 +46,7 @@ export class Nav extends Component {
               to='skills'
               spy={true}
               smooth={true}
-              offset={-100}
+              offset={-200}
               duration={500}
             >
               Skills

@@ -4,10 +4,6 @@
   color: white !important;
 }
 
-/* .button:hover {
-  background-color: rgb(104, 104, 104);
-} */
-
 .modals:hover > .country-happiness-frontend {
   opacity: 0.5;
 }
@@ -50,7 +46,6 @@
 .modals > div > a {
   font-size: 50px;
   margin: 2rem 9rem 1.5rem 0;
-  /* line-height: 0px; */
   white-space: nowrap;
 }
 
@@ -93,4 +88,11 @@
   height: 410px;
   border: solid grey 1px;
   margin: 10px 10px 20px 20px;
+}
+
+@media only screen and (max-width: 686px) {
+  .modals > div > a {
+    margin: 6rem 9rem 1.5rem 0;
+    white-space: normal;
+  }
 }

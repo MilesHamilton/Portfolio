@@ -60,12 +60,20 @@ h1 {
 
 @media only screen and (max-width: 1340px) {
   .card-wrapper {
-    margin-top: 3rem;
+    margin-top: 11rem;
     display: flex;
     justify-content: flex-start;
   }
 
   .modals {
-    margin-top: 30rem;
+    margin-top: 40rem;
+  }
+
+  h1 {
+    white-space: normal;
+  }
+
+  .title {
+    margin: 4rem 0;
   }
 }

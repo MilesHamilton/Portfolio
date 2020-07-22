@@ -19,7 +19,9 @@ export class Layout extends Component {
     return (
       <div className='layout'>
         <CSSTransition in={true} appear={true} timeout={2500} classNames='fade'>
-          <h1>Development Driven.</h1>
+          <div>
+            <h1 className='title'>Development Driven.</h1>
+          </div>
         </CSSTransition>
         <div className='sub-text'>
           {this.state.showText && (
@@ -30,7 +32,9 @@ export class Layout extends Component {
               classNames='fade'
             >
               <div>
-                <h1>Forward Thinking.</h1>
+                <div className='title'>
+                  <h1>Forward Thinking.</h1>
+                </div>
                 <div className='card-wrapper '>
                   <div className='card '>
                     <div class='card-image'>
@@ -42,9 +46,6 @@ export class Layout extends Component {
                         Developer based in Washington DC with a head for
                         creative design and smart solutions.
                       </p>
-                    </div>
-                    <div class='card-action'>
-                      <a href='#'>Resume</a>
                     </div>
                   </div>
                 </div>
