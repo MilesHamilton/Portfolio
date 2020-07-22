@@ -57,7 +57,7 @@ export class Projects extends Component {
               timeout={2500}
               classNames='fade'
             >
-              <a className=' modal-trigger btn-flat button' href='#modal1'>
+              <a className=' modal-trigger btn-flat button ' href='#modal1'>
                 <blockquote>Country Happiness Index</blockquote>
               </a>
             </CSSTransition>

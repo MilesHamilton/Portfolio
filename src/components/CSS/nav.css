@@ -1,6 +1,6 @@
 nav {
   background-color: #282c34 !important ;
-  height: 80px;
+  height: 90px !important;
 
   padding: 0;
 }
@@ -10,7 +10,7 @@ nav {
   width: 60px;
   border: white 2px solid;
   border-radius: 50%;
-  margin: 1.5rem 0 0 6rem;
+  margin: 1rem 0 0 6rem;
   padding: 0 0 0 3px;
 }
 
@@ -22,18 +22,4 @@ nav {
 
 strong {
   font-size: 25px;
-}
-
-.card-image img {
-  height: 300px;
-}
-
-.card {
-  width: 300px;
-
-  background-color: #282c34 !important;
-}
-
-.card-wrapper {
-  margin: 0 0 20rem 55rem;
 }

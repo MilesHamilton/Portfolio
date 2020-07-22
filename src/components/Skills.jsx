@@ -25,7 +25,7 @@ export class Skills extends Component {
             <i class='material-icons medium b'>http</i>
           </div>
 
-          <div className='skills-contents misc' data-aos='fade-left'>
+          <div className='skills-contents misc'>
             <p className='flow-text'>
               Ubuntu Linux ✦ Git ✦ GitHub ✦ Rapid Prototyping ✦ Visual Studio
               Code ✦ MERN Stack

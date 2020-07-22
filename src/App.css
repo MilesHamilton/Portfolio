@@ -1,3 +1,8 @@
+html,
+body {
+  overflow-x: hidden;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +19,7 @@
 .header {
   background: linear-gradient(350deg, white 25%, #282c34 0%);
   box-sizing: border-box;
-  height: 170vh;
+  height: 210vh;
   width: 100%;
 }
 

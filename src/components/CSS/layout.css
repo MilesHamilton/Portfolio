@@ -42,3 +42,30 @@ h1 {
   margin: 2rem 0;
   font-weight: 600;
 }
+
+.card-image img {
+  height: 300px;
+}
+
+.card {
+  width: 300px;
+
+  background-color: #282c34 !important;
+}
+
+.card-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media only screen and (max-width: 1340px) {
+  .card-wrapper {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .modals {
+    margin-top: 30rem;
+  }
+}
