@@ -6,16 +6,34 @@ nav {
 }
 
 .logo {
+  height: 62px;
   width: 60px;
-  height: 60px;
   border: white 2px solid;
-  padding: 0px 0;
   border-radius: 50%;
-  margin: 1rem 0 0 8vh;
+  margin: 1.5rem 0 0 6rem;
+  padding: 0 0 0 3px;
 }
 
 .nav ul {
   margin-right: 19vh;
   margin-top: 2vh;
   display: flex;
+}
+
+strong {
+  font-size: 25px;
+}
+
+.card-image img {
+  height: 300px;
+}
+
+.card {
+  width: 300px;
+
+  background-color: #282c34 !important;
+}
+
+.card-wrapper {
+  margin: 0 0 20rem 55rem;
 }
