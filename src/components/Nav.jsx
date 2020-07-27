@@ -3,7 +3,6 @@ import './CSS/nav.css';
 import { Link } from 'react-scroll';
 
 export class Nav extends Component {
-  state = {};
   render() {
     return (
       <div className='navbar-fixed nav'>
@@ -27,7 +26,6 @@ export class Nav extends Component {
               smooth={true}
               offset={-1300}
               duration={500}
-              link='Projects'
             >
               Home
             </Link>

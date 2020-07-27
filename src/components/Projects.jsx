@@ -77,10 +77,7 @@ export class Projects extends Component {
               <div className='modal-content'>
                 <h4>Country Happiness Index</h4>
                 <div className='modal_countryhappiness'>
-                  <a
-                    href='https://countryhappinessindex.vercel.app/'
-                    target='_blank'
-                  >
+                  <a href='https://country-happiness.web.app/' target='_blank'>
                     <img
                       style={{ width: '700px' }}
                       src={require('./CSS/CountryHappiness.gif')}
@@ -222,10 +219,10 @@ export class Projects extends Component {
             >
               <h4>Cotripper</h4>
               <div class='modal_cotripper'>
-                <a href='https://cotripper.netlify.app/' target='_blank'>
+                <a href='https://cotripper.netlify.app/home' target='_blank'>
                   <img
                     style={{ width: '800px' }}
-                    src={require('./CSS/Cotripper.gif')}
+                    src={require('./CSS/cotrip.gif')}
                   ></img>
                 </a>
                 <p>

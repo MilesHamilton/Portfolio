@@ -28,8 +28,6 @@ body {
 }
 
 .main {
-  /* padding-top: 0; */
-  /* height: 100vh; */
   background: local white;
 }
 
@@ -66,5 +64,11 @@ body {
 @media only screen and (max-width: 1340px) {
   .header {
     height: 270vh;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .header {
+    height: 370vh;
   }
 }
