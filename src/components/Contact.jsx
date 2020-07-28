@@ -23,9 +23,6 @@ export class Contact extends Component {
         <a href='https://www.linkedin.com/in/miles-hamilton/' target='_blank'>
           LinkedIn
         </a>
-        <a href='https://www.instagram.com/hiles_mammal/' target='_blank'>
-          Instagram
-        </a>
       </div>
     );
   }

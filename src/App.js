@@ -7,13 +7,11 @@ import About from './components/About';
 import Layout from './components/Layout';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
-
-var dcroll = require('react-scroll');
-var E3vents = dcroll.Events;
-
-E3vents.scrollEvent.register('begin', function (to, element) {
-  console.log('begin', to, element);
-});
+// import CountryHappiness from './components/CountryHappiness';
+// import Yakyik from './components/Yakyik';
+// import MovieAndTv from './components/MovieAndTv';
+// import Cotripper from './components/Cotripper';
+// import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 function App() {
   return (

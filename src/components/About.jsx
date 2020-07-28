@@ -34,7 +34,7 @@ export class About extends Component {
             <div className='about-contents'>
               <i class='material-icons small a'>star</i>
               <p className='flow-text'>
-                While serving in the National Guard I have learned a lot of
+                While serving in the National Guard I have learned about 
                 niche
                 <span> skills and expertise</span> along the way. My deployment
                 to Kuwait brought on a lot of challenges, but the opportunity to

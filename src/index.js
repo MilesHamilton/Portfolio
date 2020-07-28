@@ -4,11 +4,20 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'materialize-css/dist/css/materialize.min.css';
+import CountryHappiness from './components/CountryHappiness';
+import Yakyik from './components/Yakyik';
+import { Route, BrowserRouter as Router } from 'react-router-dom';
+import MovieAndTv from './components/MovieAndTv';
+import Cotripper from './components/Cotripper';
+
+const routing = (
+  <Router>
+    <Route path='/' component={App} />
+  </Router>
+);
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <React.StrictMode>{routing}</React.StrictMode>,
   document.getElementById('root')
 );
 
