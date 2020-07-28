@@ -12,13 +12,13 @@ export class Layout extends Component {
   componentDidMount = () => {
     setTimeout(() => {
       this.setState({ showText: true });
-    }, 1800);
+    }, 1600);
   };
 
   render() {
     return (
       <div className='layout'>
-        <CSSTransition in={true} appear={true} timeout={2500} classNames='fade'>
+        <CSSTransition in={true} appear={true} timeout={1500} classNames='fade'>
           <div>
             <h1 className='title'>Development Driven.</h1>
           </div>

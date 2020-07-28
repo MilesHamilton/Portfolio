@@ -49,45 +49,11 @@
   white-space: nowrap;
 }
 
-.modals > div > a > blockquote {
+blockquote {
   padding-left: 1.5 rem;
   height: 50px;
-  border-left: 4px solid white;
-}
-
-.modals p {
-  font-size: 20px;
-  text-align: center;
-  margin: 10px 0;
-}
-
-.modals h4 {
-  text-align: center;
-  text-decoration: underline;
-}
-
-.modals .modal_countryhappiness {
-  border: solid grey 1px;
-}
-
-.modals .modal_movietv {
-  margin-left: 15px;
-  padding: 1px;
-  margin-bottom: 10px;
-}
-
-.modals .modal_yakyik {
-  width: 755px;
-  height: 400px;
-  border: solid grey 1px;
-  margin: 10px 10px 20px 40px;
-}
-
-.modals .modal_cotripper {
-  width: 810px;
-  height: 410px;
-  border: solid grey 1px;
-  margin: 10px 10px 20px 20px;
+  border-left: 4px solid white !important;
+  color: white;
 }
 
 @media only screen and (max-width: 686px) {
