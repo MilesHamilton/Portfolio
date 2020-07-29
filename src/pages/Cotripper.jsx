@@ -3,7 +3,7 @@ import ProjectContent from '../components/ProjectContent';
 
 export default function Cotripper() {
   return (
-    <div>
+    <div className='page'>
       <ProjectContent
         title='Cotripper'
         link='https://cotripper.netlify.app/home'

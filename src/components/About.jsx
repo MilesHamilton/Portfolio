@@ -9,11 +9,12 @@ export class About extends Component {
         <Fade duration={3000}>
           <div className='about'>
             <h5>
-              <i>
-                “To know how much there is to know is the beginning of learning
-                to live.”
-              </i>
-              <br></br>
+              <p>
+                <i>
+                  “To know how much there is to know is the beginning of
+                  learning to live.”
+                </i>
+              </p>
               <br></br>
               -Dorothy West
             </h5>
@@ -22,7 +23,7 @@ export class About extends Component {
         <div className='test'>
           <Fade duration={2000} distance={'50%'} top={true}>
             <div className='about-contents'>
-              <i class='material-icons small a'>build</i>
+              <i className='material-icons small a'>build</i>
               <p className='flow-text'>
                 A lifelong <span>tinkerer</span>, I have always been tearing
                 things apart and building them anew ever since I was a child. In
@@ -34,8 +35,7 @@ export class About extends Component {
             <div className='about-contents'>
               <i class='material-icons small a'>star</i>
               <p className='flow-text'>
-                While serving in the National Guard I have learned about 
-                niche
+                While serving in the National Guard I have learned about niche
                 <span> skills and expertise</span> along the way. My deployment
                 to Kuwait brought on a lot of challenges, but the opportunity to
                 grow came with it.

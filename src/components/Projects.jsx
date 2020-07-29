@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { CSSTransition } from 'react-transition-group';
 import './CSS/projects.css';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 export class Projects extends Component {
   constructor() {
@@ -43,8 +43,11 @@ export class Projects extends Component {
               timeout={2500}
               classNames='fade'
             >
-              <a className=' btn-flat button ' href='#modal1'>
+              <a className=' btn-flat button'>
                 <Link to='/work/CountryHappiness'>
+                  <div>
+                    <img src={require('./CSS/CountryHappiness.gif')} />
+                  </div>
                   <blockquote>Country Happiness Index</blockquote>
                 </Link>
               </a>
@@ -62,6 +65,9 @@ export class Projects extends Component {
             >
               <a className=' btn-flat button'>
                 <Link to='/work/Yakyik'>
+                  <div>
+                    <img src={require('./CSS/YakYik.gif')} />
+                  </div>
                   <blockquote>yakyik</blockquote>
                 </Link>
               </a>
@@ -79,6 +85,9 @@ export class Projects extends Component {
             >
               <a className=' btn-flat button'>
                 <Link to='/work/MovieAndTv'>
+                  <div>
+                    <img src={require('./CSS/MovieTv.gif')} />
+                  </div>
                   <blockquote>movie tv finder</blockquote>
                 </Link>
               </a>
@@ -96,6 +105,9 @@ export class Projects extends Component {
             >
               <a className='btn-flat button'>
                 <Link to='/work/cotripper'>
+                  <div>
+                    <img src={require('./CSS/cotrip.gif')} />
+                  </div>
                   <blockquote>cotripper</blockquote>
                 </Link>
               </a>

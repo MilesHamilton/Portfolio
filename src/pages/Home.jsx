@@ -10,7 +10,7 @@ import Contact from '../components/Contact';
 
 function Home() {
   return (
-    <div className='app'>
+    <div className='app page'>
       <div className='header'>
         <div className='nav'>
           <Nav />

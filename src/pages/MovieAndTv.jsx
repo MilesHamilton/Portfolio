@@ -3,7 +3,7 @@ import ProjectContent from '../components/ProjectContent';
 
 export default function MovieAndTv() {
   return (
-    <div>
+    <div className='page'>
       <ProjectContent
         title='Movie and Tv Finder'
         link='https://movieandtvfinder.vercel.app/'

@@ -12,19 +12,12 @@ export class Nav extends Component {
           </a>
 
           <ul id='nav-mobile' className='right hide-on-med-and-down'>
-            <a
-              href='https://drive.google.com/file/d/1_55vVFghkdIpwEzyubH-hhbZEmwRzJpB/view?usp=sharing'
-              target='_blank'
-            >
-              Resume
-            </a>
-
             <Link
               activeClass='active'
               to='about'
               spy={true}
               smooth={true}
-              offset={-1300}
+              offset={-1400}
               duration={500}
             >
               Home
@@ -59,6 +52,13 @@ export class Nav extends Component {
             >
               Contact
             </Link>
+
+            <a
+              href='https://drive.google.com/file/d/1_55vVFghkdIpwEzyubH-hhbZEmwRzJpB/view?usp=sharing'
+              target='_blank'
+            >
+              Resume
+            </a>
           </ul>
         </nav>
       </div>

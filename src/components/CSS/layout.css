@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Neuton&family=Volkhov&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Volkhov:ital@0;1&display=swap');
 
 .fade-appear {
   opacity: 0;
@@ -15,25 +15,14 @@ h1 {
   font-size: 60px;
   height: 1rem;
   white-space: nowrap;
-  font-weight: 400;
-  letter-spacing: 3.25px;
+  font-weight: 00;
+  letter-spacing: 2.5px;
   font-family: 'Volkhov', serif;
 }
 
 .sub-text {
   height: 10rem;
   border: 1px #282c34 solid;
-}
-
-.sub-text > div > p {
-  font-size: 18px;
-  color: white;
-  width: 40rem;
-  margin-top: 5rem;
-}
-
-.sub-text > div > p > strong {
-  font-family: 'Volkhov', serif;
 }
 
 .sub-text > div > h4 {
@@ -51,6 +40,12 @@ h1 {
   width: 300px;
 
   background-color: #282c34 !important;
+}
+
+.card-content p {
+  font-family: 'Playfair Display', serif;
+
+  letter-spacing: 1px;
 }
 
 .card-wrapper {

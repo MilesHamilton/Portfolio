@@ -3,7 +3,7 @@ import ProjectContent from '../components/ProjectContent';
 
 export default function Yakyik() {
   return (
-    <div>
+    <div className='page'>
       <ProjectContent
         title='Yak Yik'
         link='http://yak-yik.surge.sh/'

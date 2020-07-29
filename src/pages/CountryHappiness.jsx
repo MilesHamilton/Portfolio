@@ -3,7 +3,7 @@ import ProjectContent from '../components/ProjectContent';
 
 export default function CountryHappiness() {
   return (
-    <div>
+    <div className='page'>
       <ProjectContent
         title='Country Happiness Index'
         link='https://country-happiness.web.app/'

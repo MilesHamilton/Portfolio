@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Neuton:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Volkhov:ital@0;1&display=swap');
 
 .about > h1 {
   color: black;
@@ -27,8 +27,19 @@ span {
 
 p.flow-text {
   font-size: 20px;
-  font-family: 'Helvetica', serif;
+  font-family: 'Playfair Display', serif;
   line-height: 30px;
+  letter-spacing: 1.5px;
+}
+
+.about p {
+  font-family: 'Volkhov', serif;
+  width: 55rem;
+}
+
+.about h5 {
+  font-family: 'Playfair Display', serif;
+  width: 55rem;
 }
 
 .test {

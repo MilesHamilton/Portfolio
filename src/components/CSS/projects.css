@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Neuton:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Volkhov:ital@0;1&display=swap');
 
 .button {
   color: white !important;
@@ -36,22 +36,40 @@
   opacity: 1;
 }
 
+a > div > img {
+  display: none;
+  width: 700px;
+}
+a:hover > div > img {
+  position: fixed;
+  display: block;
+  transition: all 1s ease-in-out;
+  z-index: 99;
+  left: 50%;
+  bottom: 25%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  opacity: 0.9;
+}
+
 .modals {
   width: 16rem;
   margin-top: 8rem;
   font-weight: 400;
-  font-family: 'Neuton', serif;
+
+  font-family: 'Volkhov', serif;
 }
 
 .modals > div > a {
-  font-size: 50px;
+  font-size: 35px;
   margin: 2rem 9rem 1.5rem 0;
   white-space: nowrap;
 }
 
 blockquote {
   padding-left: 1.5 rem;
-  height: 50px;
+  height: 45px;
   border-left: 4px solid white !important;
   color: white;
 }

@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Volkhov:ital@0;1&display=swap');
+
+.ProjectContent_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.router-nav {
+  background-color: white !important ;
+  height: 90px !important;
+  padding: 0;
+}
+
+.router-logo {
+  height: 62px;
+  width: 60px;
+  border: black 2px solid;
+  background-color: black;
+  font-family: 'Volkhov', serif;
+  font-size: 26px;
+  border-radius: 50%;
+  margin: 1rem 0 0 6rem;
+  padding: 0 0 0 4px;
+  color: white;
+}
+
+.brand-logo {
+  width: 60px;
+}
+
+.ProjectContent_title {
+  display: flex;
+  align-self: center;
+  justify-self: center;
+}
+
+.ProjectContent_title h3 {
+  font-family: 'Volkhov', serif;
+  color: grey;
+  height: 90px;
+  margin: 30px 0 0 200px;
+  font-size: 30px;
+}
+
+.ProjectContent_wrapper p {
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 1px;
+}
+
+.ProjectContent_wrapper a {
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 1px;
+  font-size: 25px;
+
+  color: black;
+}
+
+.ProjectContent_github {
+  opacity: 0.5;
+}
+.ProjectContent_github:hover {
+  opacity: 1;
+}
+
+.ProjectContent_site {
+  opacity: 0.5;
+}
+.ProjectContent_site:hover {
+  opacity: 1;
+}
+
+.ProjectContent_gif img {
+  width: 1000px;
+}
+
+.ProjectContent_description {
+  margin: 2rem 0;
+}
+
+.ProjectContent_infowrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.ProjectContent_challenge {
+  width: 20rem;
+}
+
+.ProjectContent_tech {
+  width: 10rem;
+}
+
+.ProjectContent_links {
+  display: flex;
+  flex-direction: column;
+  width: 130vh;
+  margin-bottom: 5rem;
+}
+@media only screen and (max-width: 987px) {
+  .ProjectContent_title h3 {
+  }
+
+  .ProjectContent_gif img {
+    width: 800px;
+  }
+}
