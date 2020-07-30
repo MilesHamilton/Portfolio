@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './CSS/projectContent.css';
+import { Link } from 'react-router-dom';
 
 export class ProjectContent extends Component {
   constructor(props) {
@@ -10,9 +11,11 @@ export class ProjectContent extends Component {
     return (
       <div>
         <nav className=' z-depth-0 white router-nav'>
-          <a href='#' className='brand-logo left'>
-            <div className='logo router-logo'>MH</div>
-          </a>
+          <Link to='/home'>
+            <a href='#' className='brand-logo left'>
+              <div className='logo router-logo'>MH</div>
+            </a>
+          </Link>
           <div className='ProjectContent_title'>
             <h3>{this.props.title}</h3>
           </div>
@@ -25,16 +28,6 @@ export class ProjectContent extends Component {
               </div>
 
               <div className='ProjectContent_links'>
-                <div className='ProjectContent_github'>
-                  <a
-                    href={this.props.github}
-                    rel='noopener noreferrer'
-                    target='_blank'
-                    className='ProjectContent__info'
-                  >
-                    Visit github
-                  </a>
-                </div>
                 <div className='ProjectContent_site'>
                   <a
                     href={this.props.link}
@@ -42,21 +35,26 @@ export class ProjectContent extends Component {
                     target='_blank'
                     className='ProjectContent__info'
                   >
-                    Checkout site
+                    Visit Site
+                  </a>
+                </div>
+                <div className='ProjectContent_github'>
+                  <a
+                    href={this.props.github}
+                    rel='noopener noreferrer'
+                    target='_blank'
+                    className='ProjectContent__info'
+                  >
+                    Visit Github
                   </a>
                 </div>
               </div>
 
               <div className='ProjectContent_gif'>
-                <a
-                  href={this.props.link}
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  <img src={this.props.gif}></img>
-                </a>
+                <img src={this.props.gif}></img>
               </div>
               <div className='ProjectContent_description'>
+                <h6>{this.props.descriptionTitle}</h6>
                 <p>{this.props.description}</p>
               </div>
               <div className='ProjectContent_infowrapper'>
@@ -68,7 +66,7 @@ export class ProjectContent extends Component {
 
                 <div className='ProjectContent_tech'>
                   <p>
-                    <strong>Tech Stack:</strong> {this.props.tech}
+                    <strong>Tech Stack:</strong> {[...this.props.tech]}
                   </p>
                 </div>
               </div>

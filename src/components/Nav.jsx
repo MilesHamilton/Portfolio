@@ -7,9 +7,18 @@ export class Nav extends Component {
     return (
       <div className='navbar-fixed nav'>
         <nav className=' z-depth-1'>
-          <a href='#' className='brand-logo'>
-            <div className='logo'>MH</div>
-          </a>
+          <Link
+            activeClass='active'
+            to='about'
+            spy={true}
+            smooth={true}
+            offset={-1400}
+            duration={500}
+          >
+            <a className='brand-logo btn-flat'>
+              <div className='logo'>MH</div>
+            </a>
+          </Link>
 
           <ul id='nav-mobile' className='right hide-on-med-and-down'>
             <Link
