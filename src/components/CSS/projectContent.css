@@ -43,7 +43,12 @@
   margin: 35px 0 0 200px;
   font-size: 30px;
 }
-
+.ProjectContent_links {
+  display: flex;
+  flex-direction: column;
+  width: 130vh;
+  margin: 3rem 0;
+}
 .ProjectContent_wrapper p {
   font-family: 'Playfair Display', serif;
   letter-spacing: 1px;
@@ -53,12 +58,12 @@
   font-family: 'Playfair Display', serif;
   letter-spacing: 1px;
   font-size: 25px;
-
   color: black;
 }
 
 .ProjectContent_github {
   opacity: 0.5;
+  width: 150px;
 }
 .ProjectContent_github:hover {
   opacity: 1;
@@ -66,13 +71,15 @@
 
 .ProjectContent_site {
   opacity: 0.5;
+  width: 150px;
 }
 .ProjectContent_site:hover {
   opacity: 1;
 }
 
 .ProjectContent_gif img {
-  width: 1000px;
+  width: 150vh;
+  height: 100vh;
 }
 
 .ProjectContent_description {
@@ -91,7 +98,8 @@
 
 .ProjectContent_description p {
   font-weight: bold;
-  width: 700px;
+  width: 600px;
+  margin: 0 4rem;
 }
 
 .ProjectContent_infowrapper {
@@ -102,18 +110,42 @@
 
 .ProjectContent_challenge {
   width: 20rem;
-}
-
-.ProjectContent_tech {
-  width: 10rem;
-}
-
-.ProjectContent_links {
   display: flex;
   flex-direction: column;
-  width: 130vh;
-  margin-bottom: 5rem;
 }
+
+.ProjectContent_challenge ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.ProjectContent_challenge li {
+  margin: 20px;
+
+  display: flex;
+  flex-direction: column;
+}
+.ProjectContent_tech {
+  width: 8rem;
+  margin-left: 10rem;
+}
+
+.ProjectContent_tech strong {
+  width: 20rem;
+}
+
+.ProjectContent_tech ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.ProjectContent_tech li {
+  margin: 10px 0 10px 80px;
+
+  display: flex;
+  flex-direction: column;
+}
+
 @media only screen and (max-width: 987px) {
   .ProjectContent_title h3 {
   }

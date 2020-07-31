@@ -2,6 +2,15 @@ import React, { Component } from 'react';
 import { CSSTransition } from 'react-transition-group';
 import './CSS/projects.css';
 import { Link } from 'react-router-dom';
+import Tooltip from '@material-ui/core/Tooltip';
+import { withStyles } from '@material-ui/core/styles';
+import Fade from '@material-ui/core/Fade';
+
+const TooltipStyle = withStyles({
+  tooltip: {
+    backgroundColor: 'transparent',
+  },
+})(Tooltip);
 
 export class Projects extends Component {
   constructor() {
@@ -35,6 +44,7 @@ export class Projects extends Component {
   render() {
     return (
       <div className='modals'>
+        {/* //-----------------------Country Happiness Index----------------------// */}
         <div className='country-happiness-frontend '>
           {this.state.showCountryFront && (
             <CSSTransition
@@ -43,18 +53,27 @@ export class Projects extends Component {
               timeout={2500}
               classNames='fade'
             >
-              <a className=' btn-flat button'>
-                <Link to='/work/CountryHappiness'>
-                  <div>
-                    <img src={require('./CSS/CountryHappiness.gif')} />
-                  </div>
-                  <blockquote>Country Happiness Index</blockquote>
-                </Link>
-              </a>
+              <TooltipStyle
+                placement='bottom-start'
+                TransitionComponent={Fade}
+                TransitionProps={{ timeout: 600 }}
+                title={
+                  <img
+                    className='tooltip-img'
+                    src={require('./CSS/CountryHappiness.gif')}
+                  />
+                }
+              >
+                <a className=' btn-flat button'>
+                  <Link to='/work/CountryHappiness'>
+                    <blockquote>Country Happiness Index</blockquote>
+                  </Link>
+                </a>
+              </TooltipStyle>
             </CSSTransition>
           )}
         </div>
-
+        {/* //-----------------------YakYik----------------------// */}
         <div className='yakyik'>
           {this.state.showCountryAPI && (
             <CSSTransition
@@ -63,18 +82,27 @@ export class Projects extends Component {
               timeout={2500}
               classNames='fade'
             >
-              <a className=' btn-flat button'>
-                <Link to='/work/Yakyik'>
-                  <div>
-                    <img src={require('./CSS/YakYik.gif')} />
-                  </div>
-                  <blockquote>yakyik</blockquote>
-                </Link>
-              </a>
+              <TooltipStyle
+                TransitionComponent={Fade}
+                TransitionProps={{ timeout: 600 }}
+                placement='bottom-start'
+                title={
+                  <img
+                    className='tooltip-img'
+                    src={require('./CSS/YakYik.gif')}
+                  />
+                }
+              >
+                <a className=' btn-flat button'>
+                  <Link to='/work/Yakyik'>
+                    <blockquote>yakyik</blockquote>
+                  </Link>
+                </a>
+              </TooltipStyle>
             </CSSTransition>
           )}
         </div>
-
+        {/* //-----------------------MoiveAndTvFinder----------------------// */}
         <div className='movie-tv-finder'>
           {this.state.showMovieTvFinder && (
             <CSSTransition
@@ -83,18 +111,27 @@ export class Projects extends Component {
               timeout={2500}
               classNames='fade'
             >
-              <a className=' btn-flat button'>
-                <Link to='/work/MovieAndTv'>
-                  <div>
-                    <img src={require('./CSS/MovieTv.gif')} />
-                  </div>
-                  <blockquote>movie tv finder</blockquote>
-                </Link>
-              </a>
+              <TooltipStyle
+                placement='bottom-start'
+                TransitionComponent={Fade}
+                TransitionProps={{ timeout: 600 }}
+                title={
+                  <img
+                    className='tooltip-img'
+                    src={require('./CSS/MovieTv.gif')}
+                  />
+                }
+              >
+                <a className=' btn-flat button'>
+                  <Link to='/work/MovieAndTv'>
+                    <blockquote>movie tv finder</blockquote>
+                  </Link>
+                </a>
+              </TooltipStyle>
             </CSSTransition>
           )}
         </div>
-
+        {/* //-----------------------Cotripper----------------------// */}
         <div className='cotripper'>
           {this.state.showCotripper && (
             <CSSTransition
@@ -103,14 +140,23 @@ export class Projects extends Component {
               timeout={2500}
               classNames='fade'
             >
-              <a className='btn-flat button'>
-                <Link to='/work/cotripper'>
-                  <div>
-                    <img src={require('./CSS/cotrip.gif')} />
-                  </div>
-                  <blockquote>cotripper</blockquote>
-                </Link>
-              </a>
+              <TooltipStyle
+                placement='bottom-start'
+                TransitionComponent={Fade}
+                TransitionProps={{ timeout: 600 }}
+                title={
+                  <img
+                    className='tooltip-img'
+                    src={require('./CSS/cotrip.gif')}
+                  />
+                }
+              >
+                <a className='btn-flat button'>
+                  <Link to='/work/cotripper'>
+                    <blockquote>cotripper</blockquote>
+                  </Link>
+                </a>
+              </TooltipStyle>
             </CSSTransition>
           )}
         </div>

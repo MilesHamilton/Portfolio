@@ -25,47 +25,47 @@ export class About extends Component {
             <div className='about-contents'>
               <i className='material-icons small a'>build</i>
               <p className='flow-text'>
-                A lifelong <span>tinkerer</span>, I have always been tearing
-                things apart and building them anew ever since I was a child. In
-                high school I became fascinated with virtual machines, booting
-                up operating systems just to learn how they worked.
+                Ever since I was a child I have always been a
+                <span> Tinkerer</span>. I loved tearing gadgets apart to see how
+                they work. That fascination turned digital in Highschool when I
+                booted up my very first linux distro on my home computer.
               </p>
             </div>
 
             <div className='about-contents'>
               <i class='material-icons small a'>star</i>
               <p className='flow-text'>
-                While serving in the National Guard I have learned about niche
-                <span> skills and expertise</span> along the way. My deployment
-                to Kuwait brought on a lot of challenges, but the opportunity to
-                grow came with it.
+                While serving in the<span> Ohio National Guard</span> I was a
+                builder tasked with building pathways and roads. It was on my
+                deployment to Kuwait that I discovered my interest in the
+                natural sciences, using surveying and geospatial equipment.
               </p>
             </div>
             <div className='about-contents'>
               <i className='material-icons small a'>landscape</i>
               <p className='flow-text'>
-                Motivated by my exposure to surveying technologies and
-                operations I pursued and graduated with a Bachelor's degree in
-                <span> Geology </span>and found interest in research based work.
+                While pursuing my Bachelors in<span> Geology</span> I found
+                satisfaction in the intricacies of lab work, coupled with the
+                excitement in collecting and observing data in the field.
               </p>
             </div>
             <div className='about-contents'>
               <i className='material-icons small a'>polymer</i>
               <p className='flow-text'>
-                Working as a<span> research scientist </span> for the past two
-                years, learning all that I could, I was suddenly faced with my
-                own from of an existential crisis: in-adversity. I yearned for
-                the child like passions and creativity that had brought me so
-                much joy as a kid.
+                Carrying on my interest in research, I landed my first job out
+                of college as a<span> Research Scientist</span>. Working
+                diligently for two years I found that I have hit a knowledge
+                ceiling. I explored several outlets for creativity before I
+                discovered the posibilities in Software Engineering
               </p>
             </div>
             <div className='about-contents'>
               <i className='material-icons small a'>laptop_mac</i>
               <p className='flow-text'>
-                Now returning to my inquisitive roots in the form of software
-                engineering! My dream is to untangle and fix the problems of the
-                future through my own refined and minimalistic code. What
-                <span> solutions</span> can I build for you?
+                Here I am now, combining my passion to create with my love of
+                science as a software engineer! As a developer I untangle the
+                problems of the future one refined piece of code at a time. What
+                <span> Solutions</span> can I build for you?
               </p>
             </div>
           </Fade>

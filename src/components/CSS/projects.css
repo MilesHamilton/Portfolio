@@ -36,23 +36,6 @@
   opacity: 1;
 }
 
-a > div > img {
-  display: none;
-  width: 700px;
-}
-a:hover > div > img {
-  position: fixed;
-  display: block;
-  transition: all 1s ease-in-out;
-  z-index: 99;
-  left: 50%;
-  bottom: 25%;
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
-  opacity: 0.9;
-}
-
 .modals {
   width: 16rem;
   margin-top: 8rem;
@@ -63,8 +46,15 @@ a:hover > div > img {
 
 .modals > div > a {
   font-size: 35px;
-  margin: 2rem 9rem 1.5rem 0;
+  margin: 0rem 9rem 1.5rem 0;
   white-space: nowrap;
+  padding-bottom: 70px;
+  height: 20px;
+}
+
+.tooltip-img {
+  width: 700px;
+  opacity: 0.9;
 }
 
 blockquote {

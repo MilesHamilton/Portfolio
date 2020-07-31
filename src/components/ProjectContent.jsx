@@ -23,10 +23,6 @@ export class ProjectContent extends Component {
         <div className='container'>
           <div className='col s12'>
             <div className='ProjectContent_wrapper'>
-              <div className='ProjectContent_img'>
-                <img src={this.props.staticImage}></img>
-              </div>
-
               <div className='ProjectContent_links'>
                 <div className='ProjectContent_site'>
                   <a
@@ -60,14 +56,32 @@ export class ProjectContent extends Component {
               <div className='ProjectContent_infowrapper'>
                 <div className='ProjectContent_challenge'>
                   <p>
-                    <strong>Challenges:</strong> {this.props.challenge}
+                    <strong>Challenges:</strong>
                   </p>
+                  <ul>
+                    <p>
+                      {this.props.challenges.map((elm) => {
+                        return (
+                          <li>
+                            ✦ {''} {elm.challenge}
+                          </li>
+                        );
+                      })}
+                    </p>
+                  </ul>
                 </div>
 
                 <div className='ProjectContent_tech'>
                   <p>
-                    <strong>Tech Stack:</strong> {[...this.props.tech]}
+                    <strong>Stack:</strong>
                   </p>
+                  <ul>
+                    <p>
+                      {this.props.tech.map((elm) => {
+                        return <li>{elm.tech}</li>;
+                      })}
+                    </p>
+                  </ul>
                 </div>
               </div>
             </div>

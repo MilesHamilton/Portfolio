@@ -32,14 +32,12 @@ p.flow-text {
   letter-spacing: 1.5px;
 }
 
-.about p {
+.about > p {
   font-family: 'Volkhov', serif;
-  width: 55rem;
 }
 
 .about h5 {
   font-family: 'Playfair Display', serif;
-  width: 55rem;
 }
 
 .test {
