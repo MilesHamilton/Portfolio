@@ -6,7 +6,7 @@ export class About extends Component {
   render() {
     return (
       <div>
-        <Fade duration={3000}>
+        <Fade duration={2500}>
           <div className='about'>
             <h5>
               <p>
@@ -21,7 +21,7 @@ export class About extends Component {
           </div>
         </Fade>
         <div className='test'>
-          <Fade duration={2000} distance={'50%'} top={true}>
+          <Fade duration={1500} distance={'50%'} top={true}>
             <div className='about-contents'>
               <i className='material-icons small a'>build</i>
               <p className='flow-text'>

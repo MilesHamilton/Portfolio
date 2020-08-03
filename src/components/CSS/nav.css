@@ -12,7 +12,7 @@ nav {
   border: white 2px solid;
   background-color: white;
   border-radius: 50%;
-  margin: 1rem 0 0 6rem;
+  margin: 0rem 0 0 5rem;
   padding: 12px 0 0 3px;
   color: #282c34;
   font-family: 'Volkhov', serif;
@@ -29,3 +29,21 @@ nav {
 strong {
   font-size: 25px;
 }
+
+@media only screen and (max-width: 750px) {
+  .nav ul > a {
+    padding: 2px;
+  }
+
+  .nav ul {
+    white-space: nowrap;
+    margin-right: 0px;
+  }
+
+  .logo-wrapper {
+    position: absolute;
+    left: 0px;
+    top: 20px;
+  }
+
+

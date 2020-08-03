@@ -62,11 +62,9 @@
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script>
       $(document).ready(function () {
-        $('.tooltipped').tooltip({ delay: 50 });
-
-        $('#select-beast').selectize({
-          create: true,
-          sortField: 'text',
+        document.addEventListener('DOMContentLoaded', function () {
+          var elems = document.querySelectorAll('.collapsible');
+          var instances = M.Collapsible.init(elems, options);
         });
       });
     </script>

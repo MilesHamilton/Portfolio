@@ -15,12 +15,12 @@ export class Nav extends Component {
             offset={-1400}
             duration={500}
           >
-            <a className='brand-logo btn-flat'>
+            <a className=' btn-flat logo-wrapper'>
               <div className='logo'>MH</div>
             </a>
           </Link>
 
-          <ul id='nav-mobile' className='right hide-on-med-and-down'>
+          <ul id='nav-mobile' className='right '>
             <Link
               activeClass='active'
               to='about'

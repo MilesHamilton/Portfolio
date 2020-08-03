@@ -21,7 +21,7 @@ export default function Cotripper() {
           },
           {
             challenge:
-              'Using GIT to its maximum capicity, branching and merging trees, creating detailed yet succinct commits and unfortunately reverting changes.',
+              'Using Git to its maximum capicity, branching and merging trees, creating detailed yet succinct commits and reverting changes.',
           },
         ]}
         tech={[

@@ -6,7 +6,7 @@ export class Skills extends Component {
   render() {
     return (
       <div className='skills'>
-        <Fade bottom={true} duration={2000} distance={'50%'}>
+        <Fade bottom={true} duration={1500} distance={'50%'}>
           <div className='skills-contents front'>
             <p className='flow-text'>
               HTML ✦ CSS ✦ JavaScript ✦ React ✦ Materialize ✦ Storybook ✦ Surge
