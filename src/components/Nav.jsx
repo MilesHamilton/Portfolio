@@ -12,8 +12,8 @@ export class Nav extends Component {
             to='about'
             spy={true}
             smooth={true}
-            offset={-1400}
-            duration={500}
+            offset={-3400}
+            duration={700}
           >
             <a className=' btn-flat logo-wrapper'>
               <div className='logo'>MH</div>
@@ -26,8 +26,8 @@ export class Nav extends Component {
               to='about'
               spy={true}
               smooth={true}
-              offset={-1400}
-              duration={500}
+              offset={-3400}
+              duration={700}
             >
               Home
             </Link>
